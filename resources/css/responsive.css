@@ -1,0 +1,91 @@
+@media only screen and (max-width:1200px){
+    .row {
+        margin: 0 15px;
+    }
+    .hero-tex-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .mobile-menu i.fas {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+    }
+    .uk-sticky-fixed .logo,
+    .uk-sticky-fixed .main-nav {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+    html {
+        font-size: 57.5%;
+    }
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form {
+    width: 100%;
+    margin-left: 0;
+    }
+    .social-link ul li {
+    margin: 0 .3rem;
+    }
+}
+@media only screen and (max-width:980px){
+    .box {
+        padding: 0;
+    }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+     .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+     html {
+        font-size: 62.5%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .little-description {
+        width: 100%;
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 3.4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .uk-totop {
+        padding: 1rem 1rem;
+        color: #999;
+        transition: .5s;
+        border: .2rem solid #000;
+        border-radius: .5rem;
+        background: #e7522b;
+    }
+    .testimonial-section .col:nth-child(3), .testimonial-section .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .overlay a:hover {
+       color: #FF0000;
+    }
+}
